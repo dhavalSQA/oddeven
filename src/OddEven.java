@@ -6,6 +6,7 @@ public class OddEven
     {     //to check the answer in console bar we must be use scanner
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
+        //test
         int num = scanner.nextInt();
         if (num % 2 == 0)
             System.out.println(num + " is even");
